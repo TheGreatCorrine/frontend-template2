@@ -24,7 +24,7 @@ export const DownloadButton = () => {
       
       {/* 悬浮时的光晕效果 */}
       <motion.div
-        className="absolute inset-0 -z-10 rounded-full bg-gradient-to-r from-white/80 via-white/50 to-white/80 opacity-0 group-hover:opacity-100 blur-md"
+        className="absolute inset-0 -z-10 rounded-full bg-gradient-to-r from-pink-100/80 via-white/50 to-pink-100/80 opacity-0 group-hover:opacity-100 blur-md"
         initial={false}
         transition={{ duration: 0.2 }}
       />

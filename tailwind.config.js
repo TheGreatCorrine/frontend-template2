@@ -3,14 +3,22 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial-soft': 'radial-gradient(circle at center, var(--tw-gradient-stops))',
+      fontFamily: {
+        sans: ['Nunito', 'sans-serif'],
+        display: ['Quicksand', 'sans-serif'],
       },
       colors: {
-        'soft-peach': '#FFE4E1',
-        'soft-orange': '#FFDAB9',
-        'soft-pink': '#FFE6E6',
-        'soft-coral': '#FFD6CC',
+        'soft-pink': '#FFB6C1',
+        'light-pink': '#FFC0CB',
+        'baby-pink': '#FFCCCC',
+        'pastel-pink': '#FFE4E1',
+        'soft-peach': '#FFDAB9',
+      },
+      borderRadius: {
+        'xl': '1rem',
+        '2xl': '1.5rem',
+        '3xl': '2rem',
+        '4xl': '2.5rem',
       }
     },
   },
